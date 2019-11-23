@@ -12,6 +12,6 @@ def input_to_index(num)
 end
 
 def move(board, index, choice)
-  board[index] = choice.uppcase
+  board[index] = choice.upcase
   return board
 end
