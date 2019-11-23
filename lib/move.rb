@@ -11,6 +11,6 @@ def input_to_index(num)
   return num.to_i - 1
 end
 
-def move
-  
+def move(board, index, choice)
+  return board[index] = choice
 end
