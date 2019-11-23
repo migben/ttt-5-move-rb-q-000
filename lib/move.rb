@@ -12,5 +12,6 @@ def input_to_index(num)
 end
 
 def move(board, index, choice)
-  return board[index] = choice
+  board[index] = choice
+  return board
 end
